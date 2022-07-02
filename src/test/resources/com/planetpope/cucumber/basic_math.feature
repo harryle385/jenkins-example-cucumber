@@ -11,4 +11,8 @@ Feature: basic math
     And y=2
     When x and y are added
     Then the value should be 5
-
+  Scenario: Addition3
+      Given x=3
+      And y=3
+      When x and y are added
+      Then the value should be 6
